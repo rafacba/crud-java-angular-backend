@@ -2,6 +2,8 @@ package com.rafa;
 
 import javax.persistence.*;
 
+//Comentario agregado para ver cambios al subir a github
+
 @Entity
 @Table(name="cliente")
 public class Persona {

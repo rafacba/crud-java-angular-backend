@@ -16,6 +16,7 @@ public class Controlador {
     @Autowired
     PersonaService service;
     
+    //Listar todas las personas
     @GetMapping
     public List<Persona>listar(){
         return service.listar();
